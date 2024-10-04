@@ -1,34 +1,31 @@
-name: Docs
-
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-
-jobs:
-  lint-docs:
-    name: Lint Docs
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: FuelLabs/github-actions/setups/node@master
-      - name: Lint Check
-        run: |
-          pnpm install
-          pnpm lint:check
-
-  markdown-link-check:
-    name: Check Links
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-      - uses: gaurav-nelson/github-action-markdown-link-check@1.0.12
-
-  docs-hub-check:
-    name: Docs Hub Checks
-    uses: FuelLabs/github-actions/.github/workflows/mdbook-docs.yml@master
-    with:
-      docs-src-path: 'docs/src'
-      spellcheck-config-path: 'docs/.spellcheck.yml'
+matrix:
+  - name: SPCheck
+    aspell:
+      lang: en
+    dictionary:
+      encoding: utf-8
+      wordlists:
+        - docs/spell-check-custom-words.txt
+    pipeline:
+      - pyspelling.filters.context:
+          context_visible_first: true
+          escapes: \\[\\`~]
+          delimiters:
+            # Ignore all code blocks
+            - open: '(?s)^(?P<open> *`{3,}\s*(\w+\s*,?\s*)+.*?)$'
+              close: '^( *`{3,})$'
+            # Ignore Ethereum-style hashes (e.g., 0x followed by 40 to 64 hexadecimal characters)
+            - open: '(?P<open>0x[a-fA-F0-9]{40,64})'
+              close: '(?P<close>0x[a-fA-F0-9]{40,64})'
+      - pyspelling.filters.markdown:
+          markdown_extensions:
+            - pymdownx.superfences:
+      - pyspelling.filters.html:
+          comments: false
+          ignores:
+            - code
+            - pre
+    sources:
+      - 'docs/src/*.md'
+      - 'docs/src/**/*.md'
+    default_encoding: utf-8
