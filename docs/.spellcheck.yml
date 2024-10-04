@@ -14,6 +14,9 @@ matrix:
             # Ignore all code blocks
             - open: '(?s)^(?P<open> *`{3,}\s*(\w+\s*,?\s*)+.*?)$'
               close: '^( *`{3,})$'
+            # Ignore Ethereum-style hashes (e.g., 0x followed by 40 to 64 hexadecimal characters)
+            - open: '(?P<open>0x[a-fA-F0-9]{40,64})'
+              close: '(?P<close>0x[a-fA-F0-9]{40,64})'
       - pyspelling.filters.markdown:
           markdown_extensions:
             - pymdownx.superfences:
