@@ -1,4 +1,4 @@
-# Verified Deployed Contracts
+# Verified Contracts
 
 ## Ethereum Mainnet
 

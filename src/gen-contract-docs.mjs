@@ -15,7 +15,7 @@ const outputFile = "./docs/src/contracts.md";
 const folders = ["mainnet", "testnet"];
 
 // Start the markdown content with the main title
-let mdContent = "# Verified Deployed Contracts\n\n";
+let mdContent = "# Verified Contracts\n\n";
 
 // Helper function to fetch JSON data from a URL
 const fetchJson = async (url) => {
