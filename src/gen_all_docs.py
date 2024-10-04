@@ -1,7 +1,7 @@
 import subprocess
 
 # Paths to the scripts to run
-scripts = ["gen_contract_docs.py", "gen_asset_docs.py"]
+scripts = ["src/gen_contract_docs.py", "src/gen_asset_docs.py"]
 
 for script in scripts:
     try:
