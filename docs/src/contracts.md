@@ -27,4 +27,3 @@ FuelMessagePortal | [`0x01855B78C1f8868DE70e84507ec735983bf262dA`](https://sepol
 Contract Name | Contract Address
 --- | ---
 FuelL2BridgeId | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471`
-
