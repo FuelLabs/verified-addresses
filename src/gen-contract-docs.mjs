@@ -65,7 +65,7 @@ const generateMarkdown = async () => {
             const etherscanBaseUrl = folder === "mainnet" ? "https://etherscan.io" : "https://sepolia.etherscan.io";
 
             // Create hyperlinks for addresses
-            const contractAddressLink = contractAddress !== 'N/A' ? `[${contractAddress}](${etherscanBaseUrl}/address/${contractAddress})` : 'N/A';
+            const contractAddressLink = contractAddress !== 'N/A' ? `[\`${contractAddress}\`](${etherscanBaseUrl}/address/${contractAddress})` : 'N/A';
 
             // Add to markdown content
             mdContent += `${contractName} | ${contractAddressLink}\n`;
@@ -90,11 +90,11 @@ const generateMarkdown = async () => {
 
                 if (folder === "mainnet") {
                     // Create hyperlinks for mainnet addresses
-                    const fuelAddressLink = `[${fuelContractAddress}](https://app.fuel.network/contract/${fuelContractAddress}/minted-assets)`;
+                    const fuelAddressLink = `[\`${fuelContractAddress}\`](https://app.fuel.network/contract/${fuelContractAddress}/minted-assets)`;
                     mdContent += `FuelL2BridgeId | ${fuelAddressLink}\n\n`;
                 } else {
                     // Just show the addresses for testnet
-                    mdContent += `FuelL2BridgeId | ${fuelContractAddress}\n\n`;
+                    mdContent += `FuelL2BridgeId | \`${fuelContractAddress}\`\n\n`;
                 }
             }
         }

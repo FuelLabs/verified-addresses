@@ -1,21 +1,15 @@
 
 # Verified Assets
 
-### Using this section
-You can find the current list of verified assets maintained by Fuel at the following URL:
+## Using this section
 
-https://verified-assets.fuel.network/assets.json
+You can find the current list of verified assets maintained by Fuel here: [verified-assets.json](https://verified-assets.fuel.network/assets.json)
 
 Projects are welcome to use this information, but please note that it is provided at your own risk.
 
-Additionally, you can download the latest asset information and icons in a single archive. This is useful if you want to locally cache the list or include it in a release pipeline for your tools and libraries:
+Additionally, you can download the latest asset information and icons in a single archive. This is useful if you want to locally cache the list or include it in a release pipeline for your tools and libraries: [verified-assets.zip](https://github.com/FuelLabs/verified-assets/)
 
-https://verified-assets.fuel.network/latest.zip
-
-For more information, please visit the repository at:
-
-https://github.com/FuelLabs/verified-assets/
-
+For more information, please visit the verified assets repository [here](https://github.com/FuelLabs/verified-assets/).
 
 ## Ethereum Sepolia Testnet
 
