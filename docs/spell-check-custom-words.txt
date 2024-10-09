@@ -4,6 +4,7 @@ testnets
 mainnet
 config
 JSON
+json
 abigen
 blockchain
 blockchain's

@@ -36,8 +36,8 @@ const generateMarkdown = async () => {
     for (const folder of folders) {
         // Add a section header for the Ethereum contracts
         mdContent += `## Ethereum ${folder.charAt(0).toUpperCase() + folder.slice(1)}\n\n`;
-        mdContent += "Contract Name | Contract Address | Implementation Address\n";
-        mdContent += "--- | --- | ---\n";
+        mdContent += "Contract Name | Contract Address\n";
+        mdContent += "--- | ---\n";
 
         // URL to list files in the current folder
         const folderUrl = `${baseApiUrl}/${folder}?ref=${branch}`;
@@ -60,17 +60,15 @@ const generateMarkdown = async () => {
 
             // Extract required fields
             const contractAddress = data.address || 'N/A';
-            const implementationAddress = data.implementation || 'N/A';
 
             // Determine the Etherscan URL
             const etherscanBaseUrl = folder === "mainnet" ? "https://etherscan.io" : "https://sepolia.etherscan.io";
 
             // Create hyperlinks for addresses
-            const contractAddressLink = contractAddress !== 'N/A' ? `[${contractAddress}](${etherscanBaseUrl}/address/${contractAddress})` : 'N/A';
-            const implementationAddressLink = implementationAddress !== 'N/A' ? `[${implementationAddress}](${etherscanBaseUrl}/address/${implementationAddress})` : 'N/A';
+            const contractAddressLink = contractAddress !== 'N/A' ? `[\`${contractAddress}\`](${etherscanBaseUrl}/address/${contractAddress})` : 'N/A';
 
             // Add to markdown content
-            mdContent += `${contractName} | ${contractAddressLink} | ${implementationAddressLink}\n`;
+            mdContent += `${contractName} | ${contractAddressLink}\n`;
         }
 
         // Add a newline for separation between sections
@@ -84,21 +82,19 @@ const generateMarkdown = async () => {
                 if (!fuelData) continue;
 
                 const fuelContractAddress = fuelData.address || 'N/A';
-                const fuelImplementationAddress = fuelData.implementation || 'N/A';
 
                 // Add Fuel section
                 mdContent += `## Fuel ${folder.charAt(0).toUpperCase() + folder.slice(1)}\n\n`;
-                mdContent += "Contract Name | Contract Address | Implementation Address\n";
-                mdContent += "--- | --- | ---\n";
+                mdContent += "Contract Name | Contract Address\n";
+                mdContent += "--- | ---\n";
 
                 if (folder === "mainnet") {
                     // Create hyperlinks for mainnet addresses
-                    const fuelAddressLink = `[${fuelContractAddress}](https://app.fuel.network/contract/${fuelContractAddress}/minted-assets)`;
-                    const fuelImplementationLink = fuelImplementationAddress !== 'N/A' ? `[${fuelImplementationAddress}](https://app.fuel.network/contract/${fuelImplementationAddress}/minted-assets)` : 'N/A';
-                    mdContent += `FuelL2BridgeId | ${fuelAddressLink} | ${fuelImplementationLink}\n\n`;
+                    const fuelAddressLink = `[\`${fuelContractAddress}\`](https://app.fuel.network/contract/${fuelContractAddress}/minted-assets)`;
+                    mdContent += `FuelL2BridgeId | ${fuelAddressLink}\n\n`;
                 } else {
                     // Just show the addresses for testnet
-                    mdContent += `FuelL2BridgeId | ${fuelContractAddress} | ${fuelImplementationAddress}\n\n`;
+                    mdContent += `FuelL2BridgeId | \`${fuelContractAddress}\`\n\n`;
                 }
             }
         }
