@@ -1,4 +1,21 @@
+
 # Verified Assets
+
+### Using this section
+You can find the current list of verified assets maintained by Fuel at the following URL:
+
+https://verified-assets.fuel.network/assets.json
+
+Projects are welcome to use this information, but please note that it is provided at your own risk.
+
+Additionally, you can download the latest asset information and icons in a single archive. This is useful if you want to locally cache the list or include it in a release pipeline for your tools and libraries:
+
+https://verified-assets.fuel.network/latest.zip
+
+For more information, please visit the repository at:
+
+https://github.com/FuelLabs/verified-assets/
+
 
 ## Ethereum Sepolia Testnet
 
@@ -95,3 +112,4 @@
 | `pzETH` | `0x1493d4ec82124de8f9b625682de69dcccda79e882b89a55a8c737b12de67bd68` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `Re7LRT` | `0xf2fc648c23a5db24610a1cf696acc4f0f6d9a7d6028dd9944964ab23f6e35995` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `steakLRT` | `0x4fc8ac9f101df07e2c2dec4a53c8c42c439bdbe5e36ea2d863a61ff60afafc30` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+
