@@ -1,6 +1,6 @@
 # Verified Addresses
 
-This section serves as a reference for all verified assets and contract addresses across the Fuel ecosystem.
+This section serves as a reference for all verified assets, contract addresses, and security council addresses across the Fuel ecosystem.
 
 The addresses are sourced from the following repositories:
 
