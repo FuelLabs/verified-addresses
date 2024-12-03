@@ -106,3 +106,5 @@ steakLRT
 weETH
 wstETH
 USDe
+Analytics
+CryptoCrew
