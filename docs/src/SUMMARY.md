@@ -4,3 +4,4 @@
 
 - [Assets](./assets.md)
 - [Contracts](./contracts.md)
+- [Security Council](./security-council.md)
