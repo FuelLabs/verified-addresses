@@ -4,7 +4,7 @@
   "scripts": {
     "lint:check": "markdownlint --config .markdownlint.yaml 'breaking-changes-log.md'",
     "lint:fix": "markdownlint --config .markdownlint.yaml 'breaking-changes-log.md' --fix",
-    "docs:update": "node src/index.mjs --from-workflow"
+    "docs:update": "node src/gen-all-docs.mjs --from-workflow"
   },
   "dependencies": {
     "@actions/exec": "^1.1.1",
