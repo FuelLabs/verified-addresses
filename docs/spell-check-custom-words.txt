@@ -108,3 +108,13 @@ wstETH
 USDe
 Analytics
 CryptoCrew
+LRT
+USDT
+WETH
+amphrETH
+ezETH
+mETH
+pumpBTC
+rsETH
+rsUSDe
+wbETH
