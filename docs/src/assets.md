@@ -111,3 +111,12 @@ For more information, please visit the verified assets repository [here](https:/
 | `Re7LRT` | `0xf2fc648c23a5db24610a1cf696acc4f0f6d9a7d6028dd9944964ab23f6e35995` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `steakLRT` | `0x4fc8ac9f101df07e2c2dec4a53c8c42c439bdbe5e36ea2d863a61ff60afafc30` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `USDF` | `0x33a6d90877f12c7954cca6d65587c25e9214c7bed2231c188981c7114c1bdb78` |  | `9` |
+
+## Binance Smart Chain
+
+| Name | Address | Decimals |
+|------|---------|----------|
+| `Fuel` | [`0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c`](https://bscscan.com/address/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c) | `9` |
+| `USDT` | [`0x55d398326f99059ff775485246999027b3197955`](https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955) | `18` |
+| `USDC` | [`0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d`](https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d) | `18` |
+
