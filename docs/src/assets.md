@@ -116,6 +116,6 @@ For more information, please visit the verified assets repository [here](https:/
 
 | Name | Address | Decimals |
 |------|---------|----------|
-| `Fuel` | [`0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c`](https://bscscan.com/address/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c) | `9` |
+| `Fuel` | [`0x5c8daeabc57e9249606d3bd6d1e097ef492ea3c5`](https://bscscan.com/address/0x5c8daeabc57e9249606d3bd6d1e097ef492ea3c5) | `9` |
 | `USDT` | [`0x55d398326f99059ff775485246999027b3197955`](https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955) | `18` |
 | `USDC` | [`0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d`](https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d) | `18` |
