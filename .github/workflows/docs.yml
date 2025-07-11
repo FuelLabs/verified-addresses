@@ -25,6 +25,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
       - uses: gaurav-nelson/github-action-markdown-link-check@1.0.12
+        with:
+          config-file: .markdown-link-check.json
 
   docs-hub-check:
     name: Docs Hub Checks

@@ -1,0 +1,6 @@
+{
+  "ignorePatterns": [
+    { "pattern": "etherscan\\.io" },
+    { "pattern": "bscscan\\.com" }
+  ]
+} 
