@@ -27,3 +27,12 @@ FuelMessagePortal | [`0x01855B78C1f8868DE70e84507ec735983bf262dA`](https://sepol
 Contract Name | Contract Address
 --- | ---
 FuelL2BridgeId | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471`
+
+## Staking & Rewards
+
+Contract Name | Network | Contract Address
+--- | --- | ---
+Rig Staking | Fuel Ignition | `0x2181f1b8e00756672515807cab7de10c70a9b472a4a9b1b6ca921435b0a1f49b`
+Fuel Ignition | Fuel Ignition | `0x095faac82412324c60fdf6934405b5df9de49982284779536218d16d5ee3dc4c`
+ETH Staking | Ethereum Mainnet | `0xca0c6B264f0F9958Ec186eb2EAa208966187D866`
+
