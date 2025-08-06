@@ -72,7 +72,7 @@ For more information, please visit the verified assets repository [here](https:/
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
+| `FUEL` | `0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `USDC` | `0xc26c91055de37528492e7e97d91c6f4abe34aae26f2c4d25cff6bfe45b5dc9a9` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `6` |
 | `USDe` | `0x86a1beb50c844f5eff9afd21af514a13327c93f76edb89333af862f70040b107` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
