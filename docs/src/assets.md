@@ -72,7 +72,7 @@ For more information, please visit the verified assets repository [here](https:/
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
+| `FUEL` | `0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `USDC` | `0xc26c91055de37528492e7e97d91c6f4abe34aae26f2c4d25cff6bfe45b5dc9a9` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `6` |
 | `USDe` | `0x86a1beb50c844f5eff9afd21af514a13327c93f76edb89333af862f70040b107` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
@@ -83,7 +83,8 @@ For more information, please visit the verified assets repository [here](https:/
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0x1d5d97005e41cae2187a895fd8eab0506111e0e2f3331cd3912c15c24e3c1d82` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `FUEL` | `0x1d5d97005e41cae2187a895fd8eab0506111e0e2f3331cd3912c15c24e3c1d82` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `stFUEL` | `0x5505d0f58bea82a052bc51d2f67ab82e9735f0a98ca5d064ecb964b8fd30c474` | `0x2181f1b8e00756672515807cab7de10c70a9b472a4a9b1b6ca921435b0a1f49b` | `9` |
 | `WETH` | `0xa38a5a8beeb08d95744bc7f58528073f4052b254def59eba20c99c202b5acaa3` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `weETH` | `0x239ed6e12b7ce4089ee245244e3bf906999a6429c2a9a445a1e1faf56914a4ab` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `rsETH` | `0xbae80f7fb8aa6b90d9b01ef726ec847cc4f59419c4d5f2ea88fec785d1b0e849` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
