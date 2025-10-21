@@ -119,3 +119,4 @@ rsETH
 rsUSDe
 wbETH
 Binance
+Kintsugi
