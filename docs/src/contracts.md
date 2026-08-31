@@ -47,3 +47,45 @@ Contract Name | Contract Address
 FuelL2BridgeId | [`0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471`](https://app-testnet.fuel.network/contract/0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471/minted-assets)
 The Rig (Liquid Staking) | [`0x31b83901d35a0df4ec2c1857a420cd0e92cdb77caa08dbc912cdeb90ffa48288`](https://app-testnet.fuel.network/contract/0x31b83901d35a0df4ec2c1857a420cd0e92cdb77caa08dbc912cdeb90ffa48288/minted-assets)
 L2 Staking | [`0x1fc685e1c63bbec4784079e60d4124537388f5b96773f16dfad454fae1e4f32e`](https://app-testnet.fuel.network/contract/0x1fc685e1c63bbec4784079e60d4124537388f5b96773f16dfad454fae1e4f32e/assets)
+
+## Fast Bridge contracts
+
+The proxy address or contract ID is the deployment entry point. Implementation addresses and IDs identify the code currently used by each proxy.
+
+### Ethereum Mainnet
+
+Contract Name | Proxy Address | Implementation Address
+--- | --- | ---
+Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://etherscan.io/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0xD64f2719705E5aA9b49A65285eA067aed1e6c942`](https://etherscan.io/address/0xD64f2719705E5aA9b49A65285eA067aed1e6c942)
+Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://etherscan.io/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x496449691d8F6b14a58ecf46c96Fe72a4f408B89`](https://etherscan.io/address/0x496449691d8F6b14a58ecf46c96Fe72a4f408B89)
+
+### Base Mainnet
+
+Contract Name | Proxy Address | Implementation Address
+--- | --- | ---
+Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://basescan.org/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x957c64084e13109AE5fFE86cEe399D9071Ded1fD`](https://basescan.org/address/0x957c64084e13109AE5fFE86cEe399D9071Ded1fD)
+Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://basescan.org/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x69CbFc5C46FaE7BC28708268edCbDC09ac0818E7`](https://basescan.org/address/0x69CbFc5C46FaE7BC28708268edCbDC09ac0818E7)
+
+### BNB Smart Chain Mainnet
+
+Contract Name | Proxy Address | Implementation Address
+--- | --- | ---
+Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://bscscan.com/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1`](https://bscscan.com/address/0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1)
+Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://bscscan.com/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x42Ca7A28f044AB727dFcF5fA49B9e770Dc067Ac3`](https://bscscan.com/address/0x42Ca7A28f044AB727dFcF5fA49B9e770Dc067Ac3)
+
+### HyperEVM Mainnet
+
+Contract Name | Proxy Address | Implementation Address
+--- | --- | ---
+Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://hyperevmscan.io/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1`](https://hyperevmscan.io/address/0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1)
+Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://hyperevmscan.io/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0xa1a9e55DEBF00bCF7b167F50D89AA0D59cCfa906`](https://hyperevmscan.io/address/0xa1a9e55DEBF00bCF7b167F50D89AA0D59cCfa906)
+
+### Fuel Mainnet
+
+Contract Name | Proxy Contract ID | Implementation Contract ID
+--- | --- | ---
+AssetRegistry | [`0x91cfcbef2caad02996cdcb5b897222170e85a91cd2db8f23f07ea7d9ca030c19`](https://app.fuel.network/contract/0x91cfcbef2caad02996cdcb5b897222170e85a91cd2db8f23f07ea7d9ca030c19/code) | [`0xb0d9f3e0689447632ac4dbfbbefaca7d4ff0bc580b468dd279167a07a4803724`](https://app.fuel.network/contract/0xb0d9f3e0689447632ac4dbfbbefaca7d4ff0bc580b468dd279167a07a4803724/code)
+FastBridge | [`0x12a1cf2d5b5b4eb7ece675b9d84f450fd49dfb969b46687627841a81c4ffb91f`](https://app.fuel.network/contract/0x12a1cf2d5b5b4eb7ece675b9d84f450fd49dfb969b46687627841a81c4ffb91f/code) | [`0xd585c1a5f3f225a2e1b967eff9614c7bcdee7860fd4b2de6a9c4583a2d62f287`](https://app.fuel.network/contract/0xd585c1a5f3f225a2e1b967eff9614c7bcdee7860fd4b2de6a9c4583a2d62f287/code)
+GasOracle | [`0x3d20e5a675c5fa1053fba11e176099711ba2f23112e385a7f6e2e759eca84f94`](https://app.fuel.network/contract/0x3d20e5a675c5fa1053fba11e176099711ba2f23112e385a7f6e2e759eca84f94/code) | [`0x801af4ee92bd9e64ac16b65f490d4cd7dae791662ffbc8f70e20cdb7a6b7fa8c`](https://app.fuel.network/contract/0x801af4ee92bd9e64ac16b65f490d4cd7dae791662ffbc8f70e20cdb7a6b7fa8c/code)
+RateLimiter | [`0x5d0b627f8192aee05c43ef53c1a12c054488cb6257f1dcf9e802b640b36722a7`](https://app.fuel.network/contract/0x5d0b627f8192aee05c43ef53c1a12c054488cb6257f1dcf9e802b640b36722a7/code) | [`0x6060e4d0f3c8272ebc982706667827c119bcc821d35f349c92a18ef11d2585a3`](https://app.fuel.network/contract/0x6060e4d0f3c8272ebc982706667827c119bcc821d35f349c92a18ef11d2585a3/code)
+WrappedAssetsMinter | [`0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504`](https://app.fuel.network/contract/0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504/code) | [`0x4c00c2297bc4532e74e9ef8bee4a3bdb7e8ccb84ef5aecc56f845c23e475856e`](https://app.fuel.network/contract/0x4c00c2297bc4532e74e9ef8bee4a3bdb7e8ccb84ef5aecc56f845c23e475856e/code)
