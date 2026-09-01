@@ -120,3 +120,14 @@ rsUSDe
 wbETH
 Binance
 Kintsugi
+AssetRegistry
+BNB
+Chainlink
+Ethena
+FastBridge
+GasOracle
+HyperEVM
+RateLimiter
+Uniswap
+Worldcoin
+WrappedAssetsMinter
