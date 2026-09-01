@@ -65,7 +65,9 @@ const createFastBridgeSection = (assets, chain) => {
         `| \`${symbol}\` | \`${assetId}\` | \`${contractId}\` | \`${decimals}\` |`
     ).join("\n");
 
-    return `### Fast Bridge asset IDs
+    const networkName = chain === "mainnet" ? "Mainnet" : "Testnet";
+
+    return `### ${networkName} Fast Bridge asset IDs
 
 Minted on Fuel by the [WrappedAssetsMinter contract](${explorer}/contract/${networks[0].contractId}/minted-assets) when assets are deposited through the Fast Bridge.
 
@@ -87,12 +89,12 @@ const fetchAndWriteContent = async () => {
             `### Ethereum\n\n${extractSection(assetsMarkdown, "Ethereum L1")}`,
             `### Base\n\n${extractSection(assetsMarkdown, "Ethereum base")}`,
             bscAssets,
-            `### Fuel asset IDs\n\nMinted when depositing through [\`FuelERC20GatewayV4\`](https://etherscan.io/address/0xa4cA04d02bfdC3A2DF56B9b6994520E69dF43F67)\n\n${withoutFastBridgeRows(extractSection(assetsMarkdown, "Fuel Mainnet"))}`,
+            `### Mainnet Fuel asset IDs\n\nMinted when depositing through [\`FuelERC20GatewayV4\`](https://etherscan.io/address/0xa4cA04d02bfdC3A2DF56B9b6994520E69dF43F67)\n\n${withoutFastBridgeRows(extractSection(assetsMarkdown, "Fuel Mainnet"))}`,
             createFastBridgeSection(assets, "mainnet"),
             "## Testnet",
             `### Ethereum Sepolia\n\n${extractSection(assetsMarkdown, "Ethereum Sepolia Testnet")}`,
             `### Base Sepolia\n\n${extractSection(assetsMarkdown, "Ethereum baseSepolia")}`,
-            `### Fuel asset IDs\n\n${withoutFastBridgeRows(extractSection(assetsMarkdown, "Fuel Testnet"))}`,
+            `### Testnet Fuel asset IDs\n\n${withoutFastBridgeRows(extractSection(assetsMarkdown, "Fuel Testnet"))}`,
             createFastBridgeSection(assets, "testnet"),
         ].join("\n\n") + "\n";
 

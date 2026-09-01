@@ -52,35 +52,35 @@ L2 Staking | [`0x1fc685e1c63bbec4784079e60d4124537388f5b96773f16dfad454fae1e4f32
 
 The proxy address or contract ID is the deployment entry point. Implementation addresses and IDs identify the code currently used by each proxy.
 
-### Ethereum Mainnet
+### Ethereum
 
 Contract Name | Proxy Address | Implementation Address
 --- | --- | ---
 Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://etherscan.io/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0xD64f2719705E5aA9b49A65285eA067aed1e6c942`](https://etherscan.io/address/0xD64f2719705E5aA9b49A65285eA067aed1e6c942)
 Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://etherscan.io/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x496449691d8F6b14a58ecf46c96Fe72a4f408B89`](https://etherscan.io/address/0x496449691d8F6b14a58ecf46c96Fe72a4f408B89)
 
-### Base Mainnet
+### Base
 
 Contract Name | Proxy Address | Implementation Address
 --- | --- | ---
 Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://basescan.org/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x957c64084e13109AE5fFE86cEe399D9071Ded1fD`](https://basescan.org/address/0x957c64084e13109AE5fFE86cEe399D9071Ded1fD)
 Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://basescan.org/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x69CbFc5C46FaE7BC28708268edCbDC09ac0818E7`](https://basescan.org/address/0x69CbFc5C46FaE7BC28708268edCbDC09ac0818E7)
 
-### BNB Smart Chain Mainnet
+### BNB Smart Chain
 
 Contract Name | Proxy Address | Implementation Address
 --- | --- | ---
 Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://bscscan.com/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1`](https://bscscan.com/address/0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1)
 Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://bscscan.com/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0x42Ca7A28f044AB727dFcF5fA49B9e770Dc067Ac3`](https://bscscan.com/address/0x42Ca7A28f044AB727dFcF5fA49B9e770Dc067Ac3)
 
-### HyperEVM Mainnet
+### HyperEVM
 
 Contract Name | Proxy Address | Implementation Address
 --- | --- | ---
 Messenger | [`0x2B1c1E133F832EFB1e168dE6102304B03C4ba653`](https://hyperevmscan.io/address/0x2B1c1E133F832EFB1e168dE6102304B03C4ba653) | [`0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1`](https://hyperevmscan.io/address/0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1)
 Outpost | [`0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563`](https://hyperevmscan.io/address/0x4D70851bC1C59a27af4a14342cb4CCC96c0ae563) | [`0xa1a9e55DEBF00bCF7b167F50D89AA0D59cCfa906`](https://hyperevmscan.io/address/0xa1a9e55DEBF00bCF7b167F50D89AA0D59cCfa906)
 
-### Fuel Mainnet
+### Fuel
 
 Contract Name | Proxy Contract ID | Implementation Contract ID
 --- | --- | ---

@@ -71,7 +71,7 @@ For more information, please visit the verified assets repository [here](https:/
 | `USDT` | [`0x55d398326f99059ff775485246999027b3197955`](https://bscscan.com/address/0x55d398326f99059ff775485246999027b3197955) | `18` |
 | `USDC` | [`0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d`](https://bscscan.com/address/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d) | `18` |
 
-### Fuel asset IDs
+### Mainnet Fuel asset IDs
 
 Minted when depositing through [`FuelERC20GatewayV4`](https://etherscan.io/address/0xa4cA04d02bfdC3A2DF56B9b6994520E69dF43F67)
 
@@ -118,7 +118,7 @@ Minted when depositing through [`FuelERC20GatewayV4`](https://etherscan.io/addre
 | `PayPal USD` | `0x261b37cdce3d40122e2cbc780a9a4b541f047d64d20a676cd85464edd39c328b` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `6` |
 | `Worldcoin` | `0xe47fd30577a41413ee78bd46a85fe5a61522f49bb655df45d29678b861bf8714` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 
-### Fast Bridge asset IDs
+### Mainnet Fast Bridge asset IDs
 
 Minted on Fuel by the [WrappedAssetsMinter contract](https://app.fuel.network/contract/0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504/minted-assets) when assets are deposited through the Fast Bridge.
 
@@ -159,7 +159,7 @@ Minted on Fuel by the [WrappedAssetsMinter contract](https://app.fuel.network/co
 | `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://sepolia.basescan.org/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
 | `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://sepolia.basescan.org/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
 
-### Fuel asset IDs
+### Testnet Fuel asset IDs
 
 | Name | Asset ID | Contract ID | Decimals |
 |------|----------|-------------|----------|
@@ -170,7 +170,7 @@ Minted on Fuel by the [WrappedAssetsMinter contract](https://app.fuel.network/co
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `wstETH` | `0xb42cd9ddf61898da1701adb3a003b0cf4ca6df7b5fe490ec2c295b1ca43b33c8` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 
-### Fast Bridge asset IDs
+### Testnet Fast Bridge asset IDs
 
 Minted on Fuel by the [WrappedAssetsMinter contract](https://app-testnet.fuel.network/contract/0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7/minted-assets) when assets are deposited through the Fast Bridge.
 

@@ -16,7 +16,7 @@ const folders = ["mainnet", "testnet"];
 
 const fastBridgeDeployments = [
     {
-        network: "Ethereum Mainnet",
+        network: "Ethereum",
         explorer: "https://etherscan.io/address",
         contracts: [
             ["Messenger", "0x2B1c1E133F832EFB1e168dE6102304B03C4ba653", "0xD64f2719705E5aA9b49A65285eA067aed1e6c942"],
@@ -24,7 +24,7 @@ const fastBridgeDeployments = [
         ],
     },
     {
-        network: "Base Mainnet",
+        network: "Base",
         explorer: "https://basescan.org/address",
         contracts: [
             ["Messenger", "0x2B1c1E133F832EFB1e168dE6102304B03C4ba653", "0x957c64084e13109AE5fFE86cEe399D9071Ded1fD"],
@@ -32,7 +32,7 @@ const fastBridgeDeployments = [
         ],
     },
     {
-        network: "BNB Smart Chain Mainnet",
+        network: "BNB Smart Chain",
         explorer: "https://bscscan.com/address",
         contracts: [
             ["Messenger", "0x2B1c1E133F832EFB1e168dE6102304B03C4ba653", "0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1"],
@@ -40,7 +40,7 @@ const fastBridgeDeployments = [
         ],
     },
     {
-        network: "HyperEVM Mainnet",
+        network: "HyperEVM",
         explorer: "https://hyperevmscan.io/address",
         contracts: [
             ["Messenger", "0x2B1c1E133F832EFB1e168dE6102304B03C4ba653", "0x8d75BaC30BeF77E5F6c70a6891c8d2cA6De3fAd1"],
@@ -158,7 +158,7 @@ const generateMarkdown = async () => {
         mdContent += "\n";
     }
 
-    mdContent += "### Fuel Mainnet\n\n";
+    mdContent += "### Fuel\n\n";
     mdContent += "Contract Name | Proxy Contract ID | Implementation Contract ID\n";
     mdContent += "--- | --- | ---\n";
 
